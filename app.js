@@ -1,1 +1,0 @@
-const myFun = require('./file')
