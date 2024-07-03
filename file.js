@@ -32,5 +32,5 @@ fs.readFile('File.txt',"utf-8",(err,result)=>{
 
 
 //copy a file:
-fs.cpSync('File.txt','Copy.txt')
+fs.cpSync('File.txt','Copy.txt  ')
 

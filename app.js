@@ -1,5 +1,12 @@
-const {add,sub}= require('./file')
+const http = require('http')
 
-console.log(add(1,2))
+const myServer =http.createServer((req,res)=>{
+    console.log(req.headers)
+    res.end("Hello ")
+});
 
-console.log(add(5,2))
+myServer.listen(3000,()=>{
+    console.log("server is running")
+})
+
+  
